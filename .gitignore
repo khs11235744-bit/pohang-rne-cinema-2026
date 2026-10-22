@@ -1,0 +1,8 @@
+qa/
+node_modules/
+.wrangler/
+.env*
+*.log
+hu/index_original.html
+Thumbs.db
+__pycache__/

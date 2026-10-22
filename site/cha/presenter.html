@@ -1,0 +1,30 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>포항고 차민혁팀 · 발표자 화면</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#070b16;color:#ecf8ff;font:17px "Malgun Gothic","Segoe UI",sans-serif}
+header{display:flex;align-items:center;gap:24px;justify-content:space-between;border-bottom:1px solid #29415b;padding:22px 35px;background:#11182d}
+h1{font-size:23px;letter-spacing:-1px;margin:0}#status{color:#cfff6b;font-weight:800}.layout{display:grid;grid-template-columns:1.5fr 1fr;gap:20px;padding:26px}
+.panel{background:#121b32;border-radius:13px;overflow:hidden;border:1px solid #324563}
+.panel .title{background:#1b2b48;padding:14px 18px;color:#d3fe94;font-weight:bold}
+.panel img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain}
+.notes{grid-column:1/-1;padding:18px 28px;min-height:235px}.notes p{font-size:27px;line-height:1.75;color:#f1f5fb}
+.clock{color:#cfff6b;font:900 24px "Segoe UI";letter-spacing:2px}button{background:#d0ff75;border:0;border-radius:7px;padding:11px 19px;cursor:pointer}
+</style></head>
+<body><header><h1>R&E PRESENTEЯ · 차민혁팀</h1><div id="status">동기화 대기</div><span id="timer" class="clock">00:00 / 07:00</span><button onclick="window.close()">닫기</button></header>
+<div class="layout"><section class="panel"><div class="title">현재 장면 <span id="cur">01</span> / 12</div><img id="a" src="./stills/slide_01.jpg"/></section>
+<section class="panel"><div class="title">다음 장면</div><img id="b" src="./stills/slide_02.jpg"/></section>
+<section class="panel notes"><div class="title"><span id="who">차민혁</span> · <span id="duration">20</span>초</div><p id="script">관객 화면에서 S를 눌러 발표자 창을 연결하세요.</p></section></div>
+<script>
+let start=Date.now();
+setInterval(()=>{let d=Math.floor((Date.now()-start)/1000);document.querySelector('#timer').textContent=String(Math.floor(d/60)).padStart(2,'0')+':'+String(d%60).padStart(2,'0')+' / 07:00'},1000);
+window.addEventListener('message',e=>{
+const x=e.data;if(x?.kind!=='cha-research-update')return;
+document.querySelector('#cur').textContent=String(x.index+1).padStart(2,'0');
+document.querySelector('#a').src='./stills/slide_'+String(x.index+1).padStart(2,'0')+'.jpg';
+document.querySelector('#b').src='./stills/slide_'+String(Math.min(12,x.index+2)).padStart(2,'0')+'.jpg';
+document.querySelector('#who').textContent=x.name;
+document.querySelector('#duration').textContent=x.seconds;
+document.querySelector('#script').textContent=x.notes;
+document.querySelector('#status').textContent='화면 동기화 중';
+});
+window.opener?.postMessage({kind:'cha-research-ready'},'*');
+</script></body></html>

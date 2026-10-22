@@ -1,0 +1,17 @@
+#cine-cha-qa{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:#040911e9;z-index:175;backdrop-filter:blur(20px);color:#f3fbff;font-family:"Pretendard","Malgun Gothic",sans-serif;padding:20px}
+#cine-cha-qa.open{display:flex}
+.cine-cha-qbox{width:min(1060px,100%);max-height:92vh;overflow:auto;background:linear-gradient(145deg,#183345,#081620);border:1px solid #68f1db7c;border-radius:22px;padding:30px 35px;box-shadow:0 20px 110px #000a}
+.cine-cha-qtop{display:flex;justify-content:space-between;gap:16px;align-items:center}.cine-cha-qtop small{color:#7ef0d9;font-size:13px;letter-spacing:.14em}.cine-cha-qtop h2{margin:5px 0;font-size:32px}.cine-cha-qtop button{background:#223a48;color:#effff8;border:1px solid #70f4df80;border-radius:9px;padding:10px 15px}
+#cine-cha-category{color:#f9d79b;font-size:15px;margin:24px 0 10px;font-weight:850}
+#cine-cha-question{font-size:clamp(24px,3.7vw,40px);line-height:1.35;letter-spacing:-.05em;padding:26px 0;margin:0}
+#cine-cha-answer{background:#123d43;border-left:4px solid #60edd3;font-size:22px;line-height:1.7;padding:20px;border-radius:10px}
+#cine-cha-answer[hidden]{display:none}
+.cine-cha-qbuttons{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:14px 0}
+.cine-cha-qbuttons>button{border:1px solid #70eddd74;background:#1a3848;color:#defbf4;padding:12px 15px;border-radius:10px;font-weight:850}
+.cine-cha-qbuttons #cine-cha-toggle{background:#60f4d4;color:#0b2228}
+.cine-cha-qbuttons label{color:#c9d7e0;font-size:14px;margin-left:auto}.cine-cha-qbuttons select{background:#203746;color:#fff;border-radius:8px;padding:8px;border:1px solid #ffffff47}
+#cine-cha-summary{color:#abbfcc;font-size:13px}
+#cine-cha-qopen{position:fixed;top:44px;right:155px;z-index:102;background:#0f2f3bea;border:1px solid #75f5da4c;color:#a5f9e8;padding:8px 11px;font-size:12px;border-radius:22px;opacity:.07;cursor:pointer}
+body.cine-cha.cine-started #cine-cha-qopen:hover,body.cine-cha.cine-started #cine-cha-qopen:focus-visible{opacity:1}
+body.cine-cha:not(.cine-started) #cine-cha-qopen{display:none}
+@media(max-width:620px){#cine-cha-qopen{right:134px;top:12px;opacity:.8}.cine-cha-qbox{padding:19px}.cine-cha-qtop h2{font-size:24px}#cine-cha-answer{font-size:17px}}

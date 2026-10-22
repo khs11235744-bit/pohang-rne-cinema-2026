@@ -1,0 +1,62 @@
+/* 2026 KHS R&E / Cinema Enhancer
+ * Visible controls removed from projection, accessible speaker window and keyboard retained.
+ * Sound is opt-in. Reduced-motion and safe no-audio fallbacks. */
+:root{--cinemamint:#6ef4d8;--cinemagold:#f1c888}
+body.cine-shin #chrome,body.cine-shin #mini-progress,body.cine-shin #floating-help{display:none!important}
+body.cine-shin .mobile-app .m-nav{display:none!important}
+body.cine-cha .controls,body.cine-cha #hud,body.cine-cha .bottomline{display:none!important}
+body.cine-cha #startscreen{display:none!important}
+body.cine-hu #topui .toolrow,body.cine-hu #srhint,body.cine-hu #progress{display:none!important}
+body.cine-hu #topui .brand{font-size:14px!important;color:#cdfaf2!important}
+body.cine-hu #topui .brand::after{content:" / 허준완팀";color:#67ffdc}
+#cine-gate{position:fixed;inset:0;display:grid;place-items:center;z-index:201;background:radial-gradient(circle at 50% 30%,#144b54 0%,#081b2c 42%,#040910 75%);color:#f4fcff;font-family:"Pretendard","Malgun Gothic",sans-serif;overflow:auto;transition:opacity .72s ease,filter .72s ease}
+#cine-gate.leaving{opacity:0;filter:blur(12px);pointer-events:none}
+.cine-gate__grain{position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(99deg,transparent 0 7px,rgba(140,239,229,.012) 8px 8.2px,transparent 9px 19px);animation:cine-bg-wander 26s ease-in-out infinite alternate}
+.cine-gate__grain::before,.cine-gate__grain::after{content:"";position:absolute;border-radius:50%;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid #71ffd533;box-shadow:0 0 130px #5cf5dc16}
+.cine-gate__grain::before{width:65vmin;height:65vmin;animation:cine-ring 19s linear infinite}
+.cine-gate__grain::after{width:90vmin;height:90vmin;border-style:dashed;animation:cine-ring 39s linear reverse infinite}
+.cine-gate__content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px;padding:42px 22px;max-width:980px;margin:auto}
+.cine-gate__kicker{font:800 12px/1.8 ui-sans-serif,system-ui,sans-serif;letter-spacing:.3em;color:#9eddd7;text-transform:uppercase}
+.cine-gate__team{margin-top:10px;color:#73f5da;font-size:clamp(23px,4vw,39px);font-weight:950;letter-spacing:-.04em;background:#67f3d216;border:1px solid #67f3d264;padding:10px 28px;border-radius:99px;box-shadow:0 0 70px #67f3d227}
+.cine-gate__line{height:2px;width:76px;background:#67f3d2;margin:9px auto}
+.cine-gate__heading{font-size:clamp(34px,6vw,77px);letter-spacing:-.07em;line-height:1.17;white-space:pre-line;word-break:keep-all;text-shadow:0 20px 50px #0009;margin:6px 0}
+.cine-gate__lead{font-size:clamp(15px,1.9vw,22px);color:#c8d8e4;line-height:1.65;margin:0 0 9px;word-break:keep-all}
+.cine-gate__label{font-size:13px;color:#abc9cc;font-weight:800;margin-top:4px;letter-spacing:.13em}
+.cine-gate__choose{display:flex;gap:12px;margin:0 0 9px}
+.cine-gate__choose button{min-width:145px;padding:12px 21px;border-radius:12px;background:#0d2c36;border:1px solid #5fcab7a0;color:#d8fff5;font-weight:800}
+.cine-gate__choose button[aria-pressed=true]{background:#66edcf;color:#09201f;border-color:#66edcf}
+.cine-gate__actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:9px}
+.cine-gate__actions button{border-radius:14px;font-weight:900;padding:16px 26px;min-height:57px;font-size:17px;border:1px solid #ffffff42;letter-spacing:-.035em;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.cine-gate__actions button:hover{transform:translateY(-3px)}
+.cine-gate__main{background:#67f3d2;color:#071f23;box-shadow:0 15px 60px #5bf6d13b}
+.cine-gate__quiet{background:#142d3e;color:#edf9f8}
+.cine-gate__fine{color:#9bb6c4;font-size:12px;line-height:1.8;max-width:690px;padding-top:12px}
+#cine-wipe{pointer-events:none;position:fixed;inset:0;z-index:56;opacity:0;overflow:hidden}
+#cine-wipe.active{animation:cine-wipe-clear .78s ease-out both}
+.cine-wipe__bars{position:absolute;left:-80%;top:-35%;height:175%;width:90%;transform:skewX(-27deg);background:linear-gradient(90deg,transparent,#70f6e006,#68ebd52e 46%,#e6fff646 49%,#68ebd521 52%,transparent);filter:blur(2px);box-shadow:0 0 90px #64f3dc36}
+#cine-wipe.active .cine-wipe__bars{animation:cine-wipe-slide .65s cubic-bezier(.11,.83,.26,1) both}
+#cine-scene-label{position:absolute;top:43%;left:50%;transform:translate(-50%,-50%);color:#ebfffa;letter-spacing:.33em;font-size:clamp(16px,3vw,39px);font-weight:900;text-shadow:0 0 40px #50f5d6}
+#cine-audio{position:fixed;z-index:101;top:66px;right:25px;opacity:.06;border:1px solid #70f4d653;border-radius:999px;background:#0b2638e3;color:#9df9e3;padding:8px 15px;font-size:12px;font-weight:850;cursor:pointer;transition:opacity .32s}
+body.cine-started #cine-audio:hover,body.cine-started #cine-audio:focus-visible{opacity:1}
+body:not(.cine-started) #cine-audio{display:none}
+body.cine-hu #cine-audio,body.cine-cha #cine-audio{top:44px}
+body.cine-started #cine-audio:focus-visible{outline:3px solid #66f3d2}
+body.cine-camera .scene--hero.present .hero-right{animation:cine-projection-zoom 12s cubic-bezier(.16,.58,.32,1) both;transform-origin:52% 50%}
+body.cine-camera .scene--hero.present .hero-left .big-title{animation:cine-title-punch 2.3s cubic-bezier(.16,.77,.11,1) both}
+body.cine-camera .scene--finale.present .final-bubble{animation:cine-final-pulse 4.5s cubic-bezier(.15,.7,.28,1) both}
+body.cine-camera .scene--finale.present .final-statement{animation:cine-title-punch 2.4s ease-out both}
+body.cine-camera.cine-hu .slide.s1.active .title-block{animation:cine-projection-zoom 12s ease-out both;transform-origin:27% 35%}
+body.cine-camera.cine-hu .slide.s12.active .closing{animation:cine-finale 4s cubic-bezier(.21,.62,.1,1) both;transform-origin:50% 50%}
+body.cine-camera.cine-cha #slide .hero .mega{animation:cine-title-punch 2.5s ease both}
+body.cine-camera.cine-cha #slide .closing{animation:cine-finale 4s ease both}
+body.cine-camera.cine-cha #aurora{animation:cine-projection-zoom 18s ease-in-out infinite alternate}
+@keyframes cine-bg-wander{to{transform:translateX(18px) rotate(.8deg)}}
+@keyframes cine-ring{to{rotate:360deg}}
+@keyframes cine-wipe-clear{0%{opacity:.85}30%{opacity:.65}100%{opacity:0}}
+@keyframes cine-wipe-slide{from{left:-100%}to{left:170%}}
+@keyframes cine-title-punch{from{transform:translateZ(-80px) scale(.87);opacity:.05;filter:blur(18px)}60%{opacity:1;filter:blur(0)}to{transform:scale(1);opacity:1;filter:blur(0)}}
+@keyframes cine-projection-zoom{from{transform:translateY(2%) scale(.86) rotate(-4deg);filter:blur(13px)}to{transform:translateY(-1%) scale(1.08) rotate(2deg);filter:blur(0)}}
+@keyframes cine-final-pulse{0%{transform:scale(.58) rotate(-20deg);opacity:.1;filter:blur(30px)}55%{transform:scale(1.09) rotate(3deg);filter:blur(0)}100%{transform:scale(1);opacity:1;filter:blur(0)}}
+@keyframes cine-finale{from{transform:scale(.64) translateY(70px);opacity:.05;filter:blur(20px)}to{transform:scale(1);opacity:1;filter:blur(0)}}
+@media(max-width:760px){#cine-audio{top:12px;right:15px;opacity:.65}.cine-gate__content{padding:35px 19px}.cine-gate__actions{flex-direction:column;width:100%}.cine-gate__actions button{width:100%;font-size:15px}.cine-gate__choose button{min-width:116px;padding:11px 13px}.cine-gate__fine{font-size:11px}}
+@media(prefers-reduced-motion:reduce){#cine-wipe,#cine-wipe *,body.cine-camera .scene--hero.present *,body.cine-camera .scene--finale.present *,body.cine-camera.cine-hu .slide.s1.active *,body.cine-camera.cine-hu .slide.s12.active *{animation:none!important}#cine-gate,.cine-gate__grain{transition:none!important;animation:none!important}}
