@@ -10,6 +10,11 @@ const $create=(tag,className,txt)=>{const e=document.createElement(tag);if(class
 const modeLabel=n=>n===1?'1인 발표':'2인 발표';
 const save=()=>{try{localStorage.setItem(key,JSON.stringify({speakers}))}catch{}};
 function currentSlide(){
+ if(cfg.id==='shin'&&document.querySelector('#presenter-shell')){
+  const raw=localStorage.getItem('khs-rne-shinjw-cinema-2026-slide');
+  const index=Number(raw||0);
+  return Number.isFinite(index)?Math.max(0,Math.min(index,10)):0;
+ }
  const v=$('#slide-counter')?.textContent||$('#current')?.textContent||$('#count')?.textContent||'1';
  const k=Number((v.match(/(\d+)/)||[])[1]);return Number.isFinite(k)?k-1:0;
 }
