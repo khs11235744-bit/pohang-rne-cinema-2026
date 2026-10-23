@@ -1,0 +1,65 @@
+/* SHIN / "the fairness ledger" — warm typographic, courtroom document aesthetic.
+   Different design language from the other R&E teams. */
+:root{--bg:#f9f2e4;--ink:#213d37;--mint:#137665;--gold:#b2783e;--blue:#456f79;--red:#a65843;--muted:#5f766d;--panel:#f4e8d4}
+body.cine-shin{background:#f8f0e0;color:#213d37}
+body.cine-shin .site-overlay{display:none}
+body.cine-shin #ambient-webgl{opacity:.12;filter:sepia(.75) saturate(.7)}
+body.cine-shin .reveal .slides section.scene,body.cine-shin .reveal .slides section.scene:nth-child(even),body.cine-shin .reveal .slides section.scene:nth-child(odd){background:radial-gradient(circle at 82% 32%,#dfcaa768,transparent 47%),linear-gradient(135deg,#fbf7ef,#f3e8d4 72%,#e9dcc3)!important;color:#233d37!important}
+body.cine-shin .reveal .slides section.scene::before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent 0 110px,#3d594511 110px 111px);opacity:.40}
+body.cine-shin .reveal .slides section.scene::after{border:2px solid #4a61572b}
+body.cine-shin .scene__header .series,body.cine-shin .eyebrow{color:#a06137}
+body.cine-shin .scene__header .school{color:#5a7169}
+body.cine-shin .big-title{color:#223e37;text-shadow:none}
+body.cine-shin .big-title .line-two,body.cine-shin .metric-number,body.cine-shin .emphasis,body.cine-shin .hero-glyph{color:#0d7461;text-shadow:none}
+body.cine-shin .scene__lead,body.cine-shin .overline{color:#506d65}
+body.cine-shin .scene__footer,body.cine-shin .caption-line{color:#596f65}
+body.cine-shin .scene__footer{border-top:2px solid #2353413a}
+body.cine-shin .tag{background:#196b5f1a;border-color:#0c6b5b4b;color:#0b6a59}
+body.cine-shin .ribbon{color:#4c675b}
+body.cine-shin .ribbon::before{background:#b6723c}
+body.cine-shin .soft-frame,body.cine-shin .metric-chart,body.cine-shin .split-result{background:linear-gradient(135deg,#fffcf6,#eee2cdea);border:2px solid #2a53443f;box-shadow:0 15px 40px #60442b14;color:#24473f}
+body.cine-shin .hero-orbit{border-color:#b9885677;box-shadow:0 0 15px #a16a3420,inset 0 0 35px #b1844f22}
+body.cine-shin .hero-orbit::before{border-color:#4b7d696b}
+body.cine-shin .hero-orbit::after{border-color:#bf925b73}
+body.cine-shin .orbit-label{background:#fcf8ed;color:#3d6c5b;border-color:#477f6666;box-shadow:0 8px 22px #624a231c}
+body.cine-shin .hero-right{filter:saturate(.76)}
+body.cine-shin .metric-number{color:#116b60}
+body.cine-shin .metric-explain,body.cine-shin .stat-key,body.cine-shin .step-label,body.cine-shin .bar-item,body.cine-shin .doubt-card .question,body.cine-shin .theory-card h3{color:#284a42}
+body.cine-shin .step-sub,body.cine-shin .dual-card .sub,body.cine-shin .doubt-card .note,body.cine-shin .metric-explain,body.cine-shin .care-explain p,body.cine-shin .ethics-footer,body.cine-shin .theory-card p,body.cine-shin .transfer-card p,body.cine-shin .consensus-big p{color:#586e67}
+body.cine-shin .step-no{background:#ab7a3e1a;border-color:#a077406f;color:#986535}
+body.cine-shin .gradetag,body.cine-shin .glass-pill{border-color:#4d685054;background:#fff8eb;color:#34544a}
+body.cine-shin .dual-card .value,body.cine-shin .care-explain strong{color:#176b61}
+body.cine-shin .dual-card.b .value{color:#ae6f38}
+body.cine-shin .scale-track,body.cine-shin .bar-item .track,body.cine-shin .metric-chart{background:#dfd7c7}
+body.cine-shin .dot-matrix .dot{background:#9cb6a667}
+body.cine-shin .dot-matrix .dot.hot{background:#127665;box-shadow:0 0 5px #14796143}
+body.cine-shin .consensus-flow{background:#f8f0df}
+body.cine-shin .flow-node{background:#dff0df;border-color:#257b6173;color:#1b5042}
+body.cine-shin .flow-node.secondary{background:#eadeca;border-color:#b17b5473}
+body.cine-shin .flow-arrow{color:#8e6340}
+body.cine-shin .caution{color:#7d5337;border-left-color:#a06736}
+body.cine-shin .theory-card .seq{color:#a06038}
+body.cine-shin .theory-card .thinker{color:#6c7669}
+body.cine-shin .theory-card .label,body.cine-shin .transfer-card .conclusion{color:#166f5b;border-color:#3653422e}
+body.cine-shin .theory-card::after{background:#ab834514}
+body.cine-shin .final-statement{color:#3c5a50!important}
+body.cine-shin .final-bubble{background:radial-gradient(circle,#ead8b5a6,#e5cdaa4f 64%,transparent);box-shadow:0 0 100px #cfac7135;border-color:#9d7c4e83}
+body.cine-shin .final-bubble .word{color:#124e43}
+body.cine-shin .final-bubble .micro{background:#fffaf0;border-color:#52816b;color:#28634f}
+body.cine-shin .final-bubble .ring{border-color:#b475398c}
+body.cine-shin .final-grid .big-title{font-size:83px!important}
+body.cine-shin .team-signature{color:#9f6137;font-size:25px}
+body.cine-shin .choice-button{background:#fffaf0;border-color:#446d5e52;color:#24463e}
+body.cine-shin .choice-button[aria-pressed=true]{background:#166d5b;color:#fff}
+body.cine-shin #cine-gate{background:radial-gradient(circle at 68% 29%,#f4ddac 0,#f9eee0 47%,#dfccac 100%);color:#24453b}
+body.cine-shin #cine-gate .cine-gate__kicker,body.cine-shin #cine-gate .cine-gate__label{color:#6a6450}
+body.cine-shin #cine-gate .cine-gate__team{background:#b683421a;color:#976134;border-color:#ae824a7b}
+body.cine-shin #cine-gate .cine-gate__lead,body.cine-shin #cine-gate .cine-gate__fine{color:#5d6a5c}
+body.cine-shin #cine-gate .cine-gate__heading{color:#25463d}
+body.cine-shin #cine-gate .cine-gate__line{background:#b87a3f}
+body.cine-shin #cine-gate .cine-gate__choose button{background:#fdf7eb;color:#335347;border-color:#7b8e79}
+body.cine-shin #cine-gate .cine-gate__choose button[aria-pressed=true]{background:#2b6f5e;color:white;border-color:#2b6f5e}
+body.cine-shin #cine-gate .cine-gate__main{background:#24715f;color:white;border-color:#24715f;box-shadow:0 16px 40px #3364533f}
+body.cine-shin #cine-gate .cine-gate__quiet{background:#ebddc7;color:#385349;border-color:#927756}
+body.cine-shin #cine-gate .cine-gate__grain::before,body.cine-shin #cine-gate .cine-gate__grain::after{border-color:#b28d504b;box-shadow:none}
+body.cine-shin #cine-wipe .cine-wipe__bars{background:linear-gradient(90deg,transparent,#b1782922,#cb9841a8,transparent)}

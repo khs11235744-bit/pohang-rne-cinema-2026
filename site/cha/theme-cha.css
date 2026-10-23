@@ -1,0 +1,40 @@
+/* CHAMINHYUK / "NEO LANGUAGE NOISE" — typographic maximalism & cyber-zine */
+body.cine-cha{--bg:#13051d;--panel:#271337;--panel2:#21102f;--lime:#f9f675;--mint:#6cecf4;--violet:#b48afa;--pink:#ff4fb4;--white:#fff9fe;--muted:#b7a5d2;background:#13051d}
+body.cine-cha #stage{background:radial-gradient(ellipse 930px 680px at 79% 43%,#702260a1 0,transparent 66%),radial-gradient(ellipse 800px 580px at 8% 85%,#123e5f99 0,transparent 70%),linear-gradient(133deg,#200b34,#11081d 65%,#180c3a)!important;box-shadow:inset 0 0 130px #0005}
+body.cine-cha #stage::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.18;background:radial-gradient(#f7e7ff 1px,transparent 1.2px);background-size:22px 22px;mask-image:linear-gradient(90deg,transparent,#000 30%,#000 80%,transparent)}
+body.cine-cha #stars{opacity:.24}
+body.cine-cha .topline .brand{font-family:Arial,"Malgun Gothic",sans-serif;letter-spacing:.22em;color:#fdeaff}
+body.cine-cha .topline .brand-bullet{background:#ff55ba;box-shadow:0 0 22px #f850ae}
+body.cine-cha .topline .speaker{background:#ff63be26;color:#ffe7f8;border:1px solid #ff71c563;padding:11px 22px;border-radius:9px}
+body.cine-cha .mega,body.cine-cha .megaXL{font-family:"Arial Black","Malgun Gothic",sans-serif;letter-spacing:-.07em;filter:drop-shadow(6px 6px 0 #fb42ab19)}
+body.cine-cha .mega .accent,body.cine-cha .megaXL .accent,body.cine-cha .accent{color:#eefe7c!important}
+body.cine-cha .pink{color:#ff65bd!important}
+body.cine-cha .aqua{color:#63ebef!important}
+body.cine-cha .tag{background:#fa55bf24;color:#ffd7ee;border-color:#ff70c17d}
+body.cine-cha .hero .mega{transform:skewY(-1.5deg) rotate(-1deg);filter:drop-shadow(0 0 25px #e858b744)}
+body.cine-cha #slide .bar-scene .vizzuvideo{border:2px solid #fa5fb873;box-shadow:0 0 40px #f851b422}
+body.cine-cha #slide .bar-scene .smallfoot{background:#291035e8;color:#eed8f5}
+body.cine-cha .timeline .era{background:linear-gradient(145deg,#38163c,#1c193f);border:2px solid #f76cbd6b;box-shadow:7px 8px 0 #0b0a19aa}
+body.cine-cha .timeline .era:nth-child(2){border-color:#edfd7a6b}
+body.cine-cha .timeline .era:nth-child(3){border-color:#63e5ea78}
+body.cine-cha .sourcebox{background:#fa61c014;border-left:4px solid #f976c1;color:#e9cde8;padding:13px 19px}
+body.cine-cha .duality .grow,body.cine-cha .duality .fade{border:1px solid #ee80c17d;background:#38183c55}
+body.cine-cha #wipe{mix-blend-mode:screen}
+body.cine-cha .wordcloud .pill{border:1px solid #fa58ae95;background:#a9269630;color:#ffe1f8}
+body.cine-cha .model .node{border:2px solid #f85ab97e;background:#301536e0;color:#fff8fa}
+body.cine-cha .model .node:nth-child(2n){border-color:#def9699a}
+body.cine-cha .model .node:nth-child(3n){border-color:#65eef59a}
+body.cine-cha .smallfoot{color:#d0b9d7}
+body.cine-cha .bottomline .footer-left{color:#f7cbf1}
+body.cine-cha #cine-gate{background:radial-gradient(circle at 80% 10%,#5f155fcc,transparent 40%),radial-gradient(circle at 13% 82%,#274f72bb,transparent 45%),#150a27;color:#fff3fd}
+body.cine-cha #cine-gate .cine-gate__team{color:#fff1a4;border-color:#f6e76f;background:#f8e97118}
+body.cine-cha #cine-gate .cine-gate__heading{font-family:"Arial Black","Malgun Gothic",sans-serif;letter-spacing:-.08em;color:#fcf5ff;transform:rotate(-1.3deg)}
+body.cine-cha #cine-gate .cine-gate__line{background:#f66ab8}
+body.cine-cha #cine-gate .cine-gate__kicker{color:#ff9bd6}
+body.cine-cha #cine-gate .cine-gate__choose button{border-color:#f67ac39b;background:#321442;color:#ffd8ef}
+body.cine-cha #cine-gate .cine-gate__choose button[aria-pressed=true]{background:#f6e96c;color:#1b1230;border-color:#f6e96c}
+body.cine-cha #cine-gate .cine-gate__main{background:#f25ab4;color:#1b0b20;border-color:#f25ab4;box-shadow:0 10px 50px #fa46ac6b}
+body.cine-cha #cine-gate .cine-gate__quiet{background:#341644;color:#e9cbf0;border-color:#ab5d97}
+body.cine-cha #cine-gate .cine-gate__grain::before,body.cine-cha #cine-gate .cine-gate__grain::after{border-color:#e660b06c;box-shadow:0 0 80px #d63a9353}
+body.cine-cha #cine-wipe .cine-wipe__bars{background:linear-gradient(90deg,transparent,#f537b33d,#faff998a,#f43baf47,transparent)}
+@media(prefers-reduced-motion:reduce){body.cine-cha .hero .mega{transform:none;filter:none}}

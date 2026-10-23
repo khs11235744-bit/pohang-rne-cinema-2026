@@ -1,0 +1,11 @@
+{
+  "name": "pohang-rne-seung-cafeteria-2026",
+  "compatibility_date": "2026-10-23",
+  "workers_dev": true,
+  "observability": {
+    "enabled": false
+  },
+  "assets": {
+    "directory": "./dist"
+  }
+}

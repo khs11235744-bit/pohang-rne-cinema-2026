@@ -1,0 +1,59 @@
+/* HU / CASEFILE 2026 — classified records, international jurisdiction, copper + danger red */
+body.cine-hu{--bg:#090f15;--panel:#1e2527;--mint:#e0ad67;--blue:#8a9b9c;--gold:#f4c37d;--muted:#abb3aa;--white:#f3ede2;--dur:800ms;background:#070d12;color:#f4eee3}
+body.cine-hu .full{background:radial-gradient(ellipse at 71% 17%,#5e3a2d6e,transparent 45%),radial-gradient(circle at 10% 90%,#19394a74,transparent 50%),#080e14}
+body.cine-hu #deck{background:#0c1318;box-shadow:0 0 160px #000d;filter:contrast(1.07)}
+body.cine-hu #deck::before{position:absolute;content:"";z-index:0;inset:0;pointer-events:none;opacity:.17;background:repeating-linear-gradient(0deg,transparent 0 34px,#dba76b24 35px 36px),repeating-linear-gradient(90deg,transparent 0 34px,#dfa3651f 35px 36px)}
+body.cine-hu #deck::after{border:1px solid #be995f48}
+body.cine-hu .slide{background:radial-gradient(circle at 80% 20%,#533c304b,transparent 55%),linear-gradient(138deg,#151d22,#080f15 73%)!important;color:#e9e6dd}
+body.cine-hu .slide:nth-child(even){background:radial-gradient(circle at 23% 84%,#463e3452,transparent 52%),linear-gradient(128deg,#10181c,#1a1717 79%)!important}
+body.cine-hu .slide-head .eyebrow{color:#d9a564;letter-spacing:.22em}
+body.cine-hu .headline{font-family:"Malgun Gothic",sans-serif;font-weight:950;letter-spacing:-.06em;filter:drop-shadow(8px 8px 0 #0005)}
+body.cine-hu .headline .cascade:last-child{color:#f0b96e}
+body.cine-hu .subtitle{color:#d2c8b8}
+body.cine-hu .scene-foot{border-top:1px solid #d3a36c36;color:#aeb9b4}
+body.cine-hu .slide-id{color:#ffc87b}
+body.cine-hu .topline{font-family:"Courier New",monospace;letter-spacing:.16em;color:#e0c6a2}
+body.cine-hu .topline .brand{border-bottom:1px solid #e7a76a47;padding-bottom:8px}
+body.cine-hu .topline .brand::after{color:#edb068}
+body.cine-hu .spin-ring{filter:sepia(1) saturate(1.5) hue-rotate(-20deg)}
+body.cine-hu .cover-visual .core{color:#edc38a}
+body.cine-hu .orb-label{border:1px solid #c69d6654;color:#eed3a9;background:#141b1da8}
+body.cine-hu .cover-manifest span{color:#e8bd83}
+body.cine-hu .spin-ring,body.cine-hu .orbit{border-color:#d6a96c6f}
+body.cine-hu .scholar-card{background:linear-gradient(142deg,#25241f,#171c20);border:1px solid #e1b06e58;box-shadow:9px 11px 0 #080e14}
+body.cine-hu .scholar-card h3{color:#f7daae}
+body.cine-hu .scholar-card b{color:#eab46e}
+body.cine-hu .scholar-card p{color:#e0ddd1}
+body.cine-hu .scholar-card small{color:#cbb8a0}
+body.cine-hu .source-small{color:#cfc2b0}
+body.cine-hu .casegrid{display:grid;grid-template-columns:.82fr 1.18fr;gap:40px;align-items:center;height:100%;padding:0 25px}
+body.cine-hu .casebig{background:linear-gradient(160deg,#39231c,#1b1516);border:2px solid #e7a366;padding:35px 40px;border-radius:12px;box-shadow:15px 15px 0 #060b10a1;position:relative;overflow:hidden}
+body.cine-hu .casebig::after{content:"DOJ 2019";position:absolute;right:-22px;bottom:70px;color:#ee955b1d;font:bold 80px "Courier New",monospace;transform:rotate(-12deg)}
+body.cine-hu .casebig>small{color:#f5c48c;font:bold 19px "Courier New",monospace;letter-spacing:.18em}
+body.cine-hu .casebig>b{display:block;font:bold 145px/.96 Arial,sans-serif;letter-spacing:-.1em;margin:26px 0 10px;color:#f2c18a}
+body.cine-hu .casebig>span{font-size:26px;line-height:1.38;display:block;font-weight:800;color:#fff0dd}
+body.cine-hu .casebig>p{font-size:19px;line-height:1.6;color:#e1cdb9}
+body.cine-hu .casesteps{display:flex;flex-direction:column;gap:21px}
+body.cine-hu .casesteps>div{display:grid;grid-template-columns:70px 1fr;gap:5px 15px;background:#191d1e;border:1px solid #c18d584d;border-left:5px solid #d69b57;padding:24px 26px;box-shadow:7px 8px 0 #0005}
+body.cine-hu .casesteps em{grid-row:span 2;font:bold normal 30px "Courier New",monospace;color:#dfa867}
+body.cine-hu .casesteps strong{font-size:30px;color:#f4e5cc;letter-spacing:-.03em}
+body.cine-hu .casesteps small{font-size:19px;line-height:1.45;color:#acbbb2}
+body.cine-hu #cine-gate{background:radial-gradient(circle at 73% 25%,#593327 0,transparent 42%),linear-gradient(115deg,#091017,#161a1d 56%,#0b0e15);color:#f8edde}
+body.cine-hu #cine-gate .cine-gate__team{border-color:#cba16e;color:#efbd7e;background:#8c5a2b1c}
+body.cine-hu #cine-gate .cine-gate__heading{font-family:"Malgun Gothic",sans-serif;font-weight:950;letter-spacing:-.08em;color:#f9ede0}
+body.cine-hu #cine-gate .cine-gate__kicker{color:#e7b078}
+body.cine-hu #cine-gate .cine-gate__line{background:#d09a60}
+body.cine-hu #cine-gate .cine-gate__choose button{border-color:#b9916a;background:#262423;color:#f4e2ca}
+body.cine-hu #cine-gate .cine-gate__choose button[aria-pressed=true]{background:#d3a36e;color:#21190f;border-color:#d3a36e}
+body.cine-hu #cine-gate .cine-gate__main{background:#d4a06c;border-color:#d4a06c;color:#1b1916;box-shadow:0 15px 45px #be8b5385}
+body.cine-hu #cine-gate .cine-gate__quiet{background:#282626;border-color:#936e4d;color:#eee1d1}
+body.cine-hu #cine-gate .cine-gate__grain::before,body.cine-hu #cine-gate .cine-gate__grain::after{border-color:#cba0704d;box-shadow:0 0 70px #a6663150}
+body.cine-hu #cine-wipe .cine-wipe__bars{background:linear-gradient(90deg,transparent,#f1bc7a26,#ec9167a8,#fff0c8a6,transparent)}
+@media(prefers-reduced-motion:reduce){body.cine-hu .headline,body.cine-hu #deck{filter:none}}
+
+body.cine-hu .slide.s7 .scene{isolation:isolate}
+body.cine-hu .slide.s7 .casegrid{position:relative;z-index:3}
+body.cine-hu .evidence-atlas{position:absolute;width:72%;height:82%;right:0;top:9%;z-index:1;pointer-events:none;opacity:.35;filter:drop-shadow(0 0 10px #d5a269)}
+body.cine-hu .evidence-link{stroke:#f2b66b;stroke-width:3;fill:none}
+body.cine-hu .evidence-node{fill:#ffe3ac;stroke:#ff9570;stroke-width:2}
+body.cine-hu .evidence-node-label{fill:#ffdeaa;font:bold 16px 'Courier New',monospace;letter-spacing:.08em}

@@ -1,4 +1,4 @@
-qa/
+﻿qa/
 node_modules/
 .wrangler/
 .env*
@@ -6,3 +6,7 @@ node_modules/
 hu/index_original.html
 Thumbs.db
 __pycache__/
+
+hu-motion-deps/
+dist/
+seung-source/qa/
