@@ -1,0 +1,30 @@
+name: Verify R&E V2 cinematic presentations
+on:
+  push:
+    paths:
+      - 'v2-studio/**'
+      - 'site/v2/**'
+      - '.github/workflows/rne-v2.yml'
+  pull_request:
+    paths:
+      - 'v2-studio/**'
+      - 'site/v2/**'
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: v2-studio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: 'v2-studio/package-lock.json'
+      - name: Install packages
+        run: npm ci --no-audit --no-fund
+      - name: Check slide evidence and durations
+        run: npm run check
+      - name: Build four teams and printable scripts
+        run: npm run build

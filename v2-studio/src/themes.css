@@ -1,0 +1,181 @@
+/* FOUR INDEPENDENT ART DIRECTIONS — not one color-swapped template */
+
+/* 01 / 신진욱 · WARM JUSTICE LEDGER */
+body[data-team=shin]{color-scheme:light;--bg:#faf4e9;--fg:#24433a;--soft:#597367;--accent:#136a57;--accent2:#bf834e;--panel:#fcf7ed;--line:#284d3a49;--thesis-bg:#e4eadb;--hero-glow:#d7b78452;--hero-glow2:#4d977630;font-family:"Nanum Myeongjo","Pretendard","Malgun Gothic",serif}
+body[data-team=shin] .slide-frame{background-color:#f8f1e2;background-image:linear-gradient(90deg,#2b4a3830 1px,transparent 1px),linear-gradient(#2b4a3820 1px,transparent 1px);background-size:86px 86px}
+body[data-team=shin] .slide-frame:after{border:3px double #2e6c5669}
+body[data-team=shin] .school-line span,body[data-team=shin] .eyebrow{font-family:"Courier New",monospace;letter-spacing:.13em}
+body[data-team=shin] .headline{color:#23463b;text-shadow:2px 3px 0 #aaab8940}
+body[data-team=shin] .copy{border-left:5px solid #a67d4f4a;padding-left:22px}
+body[data-team=shin] .thesis{border-radius:3px;background:#dfe6d5;border-left:6px solid #a47744}
+body[data-team=shin] .thesis small{color:#9b6741}
+body[data-team=shin] .cover-symbol{font-family:Georgia,serif;color:#136a57;text-shadow:20px 20px 0 #dabd889a}
+body[data-team=shin] .cover-tags span,body[data-team=shin] .triad article,body[data-team=shin] .compare article{box-shadow:12px 14px 0 #425e4423;border:2px solid #2f5c4b60}
+body[data-team=shin] .triad .glyph{color:#bd824c}
+body[data-team=shin] .bar-track{background:#d8dbcb}
+body[data-team=shin] .bar-fill{background:linear-gradient(90deg,#147964,#b08752)}
+body[data-team=shin] .stat-card{background:#f7eedb;box-shadow:13px 14px 0 #28544225}
+body[data-team=shin] .stat-card>strong{font-family:Georgia,serif}
+body[data-team=shin] .portrait-pictures figure{background:#f1e4cb;border-radius:3px;border:9px double #9c8667}
+body[data-team=shin] .portrait-explain{background:#f2e5cc}
+body[data-team=shin] .ending{background:radial-gradient(circle at center,#d3e5d09e,transparent 58%);padding:40px}
+body[data-team=shin] .ending-thanks{font-family:serif;color:#a36c43}
+body[data-team=shin] .intro{background:#f1e4cf;background-image:repeating-linear-gradient(90deg,transparent 0 78px,#4a785e20 79px 80px)}
+body[data-team=shin] .intro h1{font-family:"Nanum Myeongjo","Malgun Gothic",serif;color:#1b5e4a}
+body[data-team=shin] .intro-team{background:#e7ebd9}
+body[data-team=shin] .intro-actions button{border:2px solid #225b49;color:#275640;background:#f6efdf}
+body[data-team=shin] #enter-silent{background:#1d735e;color:white}
+body[data-team=shin] .intro-speakers button[aria-pressed=true]{background:#1d735e;color:white}
+body[data-team=shin] .intro:before{background:radial-gradient(circle at 55% 42%,#c2d8b94d,transparent 60%)}
+
+/* 02 / 차민혁 · DIGITAL TYPOGRAPHY LAB */
+body[data-team=cha]{--bg:#150724;--fg:#fff7fb;--soft:#d9bddd;--accent:#f7fb79;--accent2:#ff58b8;--panel:#31133f;--line:#dd7bd45b;--thesis-bg:#4c1b566b;--hero-glow:#c7299e8d;--hero-glow2:#185c92b0;font-family:"Arial Black","Pretendard","Malgun Gothic",sans-serif}
+body[data-team=cha] .slide-frame{background-color:#1c0b30;background-image:radial-gradient(circle at 86% 23%,#71246c9c,transparent 48%),radial-gradient(circle at 19% 70%,#17468c5c,transparent 50%),radial-gradient(#f49add23 .8px,transparent 1px);background-size:auto,auto,24px 24px}
+body[data-team=cha] .slide-frame:after{border:2px solid #f276b15e;clip-path:polygon(0 0,100% 0,100% 83%,93% 83%,93% 100%,0 100%)}
+body[data-team=cha] .frame-head{border-bottom:1px solid #f5a7db33}
+body[data-team=cha] .school-line img{transform:rotate(-5deg);background:#f9fae4;border-radius:2px}
+body[data-team=cha] .headline{font-family:"Arial Black","Malgun Gothic",sans-serif;text-transform:none;transform:skewY(-1deg);line-height:1.08;letter-spacing:-.088em;text-shadow:7px 8px 0 #e7339833}
+body[data-team=cha] .subtitle{font-size:26px;line-height:1.5}
+body[data-team=cha] .eyebrow{color:#ff82c9;letter-spacing:.24em}
+body[data-team=cha] .thesis{border-left:8px solid #ff59ad;background:#76245c69;transform:rotate(-.5deg)}
+body[data-team=cha] .thesis small{color:#fc88ca}
+body[data-team=cha] .thesis strong{color:#fbfafa}
+body[data-team=cha] .cover-symbol{font-family:"Arial Black","Malgun Gothic",sans-serif;font-size:240px;transform:rotate(9deg);color:#fcf86f;text-shadow:16px 18px 0 #fb4cb68a,0 0 80px #fbec62b0}
+body[data-team=cha] .cover-tags span{background:#3d174e;border:2px solid #fa62bb;color:#f9dcf4;transform:rotate(-4deg)}
+body[data-team=cha] .wordcloud{transform:rotate(-6deg)}
+body[data-team=cha] .wordcloud .word{border:2px solid #f387d1;color:#f8f4f8;border-radius:1px;background:#55215d;transform:rotate(-4deg);box-shadow:9px 10px 0 #040112bf}
+body[data-team=cha] .wordcloud .word:nth-child(even){transform:rotate(6deg);background:#f9f67a;color:#21102e;border-color:#f9f67a}
+body[data-team=cha] .wordcloud .word:nth-child(3){color:#ff77d2}
+body[data-team=cha] .bar-fill{background:linear-gradient(90deg,#f9fa72,#ff56b6)}
+body[data-team=cha] .bar-chart .bar-item:nth-child(even) .bar-fill{background:linear-gradient(90deg,#69d6ff,#8efbe1)}
+body[data-team=cha] .bar-item>strong{color:#f8fb71}
+body[data-team=cha] .stat-card{background:#452049;transform:rotate(-1deg);box-shadow:12px 14px 0 #0007}
+body[data-team=cha] .stat-card>strong{color:#f6fa73}
+body[data-team=cha] .compare article,body[data-team=cha] .triad article,body[data-team=cha] .timeline article{background:#351743;border:2px solid #f086c478;box-shadow:9px 10px 0 #08020db3;border-radius:5px}
+body[data-team=cha] .compare article:nth-child(2){background:#28173e;border-color:#83ddef}
+body[data-team=cha] .triad .glyph{color:#fe6db9}
+body[data-team=cha] .ending-thanks{color:#f6fa79;text-shadow:5px 5px 0 #f54bac}
+body[data-team=cha] .intro{background:radial-gradient(circle at 72% 10%,#6c1456cc,transparent 55%),radial-gradient(circle at 8% 90%,#1a4e8f99,transparent 45%),#180b26}
+body[data-team=cha] .intro h1{font-family:"Arial Black","Malgun Gothic",sans-serif;transform:rotate(-1.2deg);color:#f8ffed;text-shadow:7px 9px 0 #bc148d8e}
+body[data-team=cha] .intro-team{background:#fae773;color:#26132b;border-color:#fae773}
+body[data-team=cha] .intro-school img{transform:rotate(-5deg)}
+body[data-team=cha] #enter-silent,body[data-team=cha] .intro-speakers button[aria-pressed=true]{background:#f8f86b;color:#220c29}
+body[data-team=cha] #enter-sound{background:#fd5db7;color:#19071d;border-color:#fd5db7}
+
+/* 03 / 허준완 · FORENSIC INTELLIGENCE CASEFILE */
+body[data-team=hu]{--bg:#090e14;--fg:#f7ebdc;--soft:#c7b6a6;--accent:#e8b279;--accent2:#d7745a;--panel:#24211e;--line:#e7ae6952;--thesis-bg:#422b2070;--hero-glow:#66432d69;--hero-glow2:#25434b76;font-family:"Malgun Gothic","Pretendard",sans-serif}
+body[data-team=hu] .slide-frame{background-color:#0d1316;background-image:linear-gradient(100deg,#111e23,#231b18 80%),repeating-linear-gradient(90deg,transparent 0 29px,#eeb37e0d 30px 31px)}
+body[data-team=hu] .slide-frame:before{background:radial-gradient(circle at 85% 65%,#83523044,transparent 55%),radial-gradient(circle at 13% 12%,#476b7444,transparent 45%)}
+body[data-team=hu] .slide-frame:after{border:2px dashed #cb9b6061;border-radius:0}
+body[data-team=hu] .school-line img{border-radius:0;filter:sepia(.25)}
+body[data-team=hu] .school-line span,body[data-team=hu] .eyebrow,body[data-team=hu] .frame-foot,body[data-team=hu] .section-name{font-family:"Courier New",monospace}
+body[data-team=hu] .headline{font-weight:950;letter-spacing:-.07em}
+body[data-team=hu] .copy{border-top:7px solid #e2b67a;padding-top:21px}
+body[data-team=hu] .eyebrow{color:#e6aa72;font-size:19px;letter-spacing:.18em}
+body[data-team=hu] .thesis{background:#51372b59;border-left:5px solid #edb46d}
+body[data-team=hu] .thesis small{color:#f7bc78}
+body[data-team=hu] .cover-symbol{color:#f5c184;text-shadow:0 0 80px #b96f3977}
+body[data-team=hu] .cover-tags span{border:1px solid #e5ab6e74;border-radius:0;background:#231c1a}
+body[data-team=hu] .case-file{background:linear-gradient(140deg,#34251b,#1b1d1b);border:2px solid #e0a36b;transform:rotate(-1.5deg)}
+body[data-team=hu] .case-label{color:#f7c58a}
+body[data-team=hu] .case-file h3{font-family:"Courier New","Malgun Gothic",monospace;color:#f4dbb6}
+body[data-team=hu] .method-stat{background:#272321;border-radius:0;box-shadow:7px 7px 0 #080d0fb8}
+body[data-team=hu] .stat-card{border:1px solid #d69a67;background:#29201a;border-radius:4px}
+body[data-team=hu] .stat-card>strong{font-family:"Courier New",monospace;color:#ffd18a}
+body[data-team=hu] .bar-fill{background:linear-gradient(90deg,#d78363,#fac078)}
+body[data-team=hu] .bar-item:nth-child(even) .bar-fill{background:linear-gradient(90deg,#8b9fb1,#e1bc83)}
+body[data-team=hu] .compare article,body[data-team=hu] .triad article,body[data-team=hu] .timeline article,body[data-team=hu] .portrait-explain{background:#24211c;border-radius:4px;border:1px solid #ceab736d}
+body[data-team=hu] .portrait-pictures figure{border:4px solid #d3a06e75;border-radius:0}
+body[data-team=hu] .flow-visual,body[data-team=hu] .network-visual{background:repeating-linear-gradient(0deg,#241d17 0 35px,#a76f4522 36px 37px);border:2px solid #d6a070}
+body[data-team=hu] .flow-title,body[data-team=hu] .network-title{font-size:22px;color:#ffd597}
+body[data-team=hu] .step-item{background:#302620;border:2px solid #b78c69;border-radius:0;transform:rotate(-.8deg)}
+body[data-team=hu] .step-arrow{font-family:"Courier New",monospace}
+body[data-team=hu] .ending-thanks{color:#f7c78e}
+body[data-team=hu] .intro{background:radial-gradient(circle at 65% 24%,#3d3229 0,transparent 50%),linear-gradient(110deg,#10181e,#251c18 70%,#080e13)}
+body[data-team=hu] .intro h1{font-family:"Malgun Gothic",sans-serif;text-shadow:4px 6px 0 #0007}
+body[data-team=hu] .intro-team{color:#f2ca89;background:#402e20;border-radius:3px}
+body[data-team=hu] .intro button{border-radius:3px}
+body[data-team=hu] #enter-silent,body[data-team=hu] .intro-speakers button[aria-pressed=true]{background:#e3ae79;color:#23190f}
+body[data-team=hu] #enter-sound{background:#433025;color:#f7e2c1}
+
+/* 04 / 신승연 · SCHOOL FIELDNOTES / SOCIAL PSYCHOLOGY */
+body[data-team=seung]{color-scheme:light;--bg:#fff9e9;--fg:#1f4550;--soft:#5a7480;--accent:#0e8176;--accent2:#f0aa4f;--panel:#fffdf4;--line:#285c6070;--thesis-bg:#e2f3db;--hero-glow:#fac96666;--hero-glow2:#6fc0a64d;font-family:"Pretendard","Malgun Gothic",sans-serif}
+body[data-team=seung] .slide-frame{background-color:#fff8e8;background-image:radial-gradient(circle at 86% 18%,#efc15d8e 0,transparent 45%),linear-gradient(100deg,#fffaf0,#ecf3dd 88%)}
+body[data-team=seung] .slide-frame:after{border:3px solid #285f6775;border-radius:16px;box-shadow:12px 12px 0 #1d8b8025}
+body[data-team=seung] .school-line img{border:2px solid #1c6c65;padding:4px;transform:rotate(-5deg)}
+body[data-team=seung] .eyebrow{color:#ea715d}
+body[data-team=seung] .headline{font-weight:950;letter-spacing:-.08em;text-shadow:5px 6px 0 #edb85c47}
+body[data-team=seung] .thesis{border:2px solid #1f666e;border-radius:16px;box-shadow:7px 8px 0 #17686228}
+body[data-team=seung] .thesis small{color:#d66652}
+body[data-team=seung] .cover-symbol{color:#0b857a;text-shadow:16px 16px 0 #efb85b,28px 28px 0 #e6765b99}
+body[data-team=seung] .cover-tags span{background:#fffaf0;border:2px solid #1d666f}
+body[data-team=seung] .triad article,body[data-team=seung] .compare article,body[data-team=seung] .timeline article{border:3px solid #255b64;border-radius:15px;box-shadow:9px 11px 0 #145d6433;background:#fffef7}
+body[data-team=seung] .triad article:nth-child(2),body[data-team=seung] .timeline article:nth-child(2){background:#e4f1d6}
+body[data-team=seung] .triad article:nth-child(3),body[data-team=seung] .timeline article:nth-child(3){background:#fff1d3}
+body[data-team=seung] .triad .glyph{color:#e78368}
+body[data-team=seung] .stat-card{background:#0c8176;color:#fff;border-radius:18px;box-shadow:14px 14px 0 #eaaf6488}
+body[data-team=seung] .stat-card>strong,body[data-team=seung] .stat-card small{color:#fff}
+body[data-team=seung] .bar-track{background:#b3dbd2}
+body[data-team=seung] .bar-fill{background:linear-gradient(90deg,#167d79,#efb659)}
+body[data-team=seung] .bar-item:nth-child(2n) .bar-fill{background:linear-gradient(90deg,#e96e5a,#f5bd6a)}
+body[data-team=seung] .portrait-pictures figure{border:4px solid #216c6f;border-radius:18px;box-shadow:11px 14px 0 #ecb96b63}
+body[data-team=seung] .portrait-explain{background:#eaf2d8;border:2px solid #1e7d776c}
+body[data-team=seung] .questions .question-choice{background:#f7f9e8;border:2px solid #1c656f;border-radius:15px;box-shadow:5px 6px 0 #276a6832}
+body[data-team=seung] .question-choice.selected{background:#0f867b;color:white}
+body[data-team=seung] .ending{background:#e6f2de;border-radius:20px;padding:22px;border:3px solid #307d7281}
+body[data-team=seung] .ending-thanks{color:#d76f56}
+body[data-team=seung] .intro{background:radial-gradient(circle at 79% 16%,#f3c35e89,transparent 55%),linear-gradient(110deg,#fff8e7,#e7f3df)}
+body[data-team=seung] .intro-team{background:#0f8677;border-color:#0f8677;color:white}
+body[data-team=seung] .intro h1{font-weight:950;color:#1b5160}
+body[data-team=seung] #enter-silent,body[data-team=seung] .intro-speakers button[aria-pressed=true]{background:#0f8677;border-color:#0f8677;color:white}
+body[data-team=seung] #enter-sound{background:#f3c36c;color:#1b4951}
+body[data-team=seung] .intro:before{background:radial-gradient(circle at 45% 43%,#efc26755,transparent 65%)}
+
+/* HU: single horizontal investigative chain; no 3+1 wrapping */
+body[data-team=hu] .flow-visual{position:relative;overflow:hidden;padding:28px 12px 24px;min-height:420px}
+body[data-team=hu] .flow-steps{flex-wrap:nowrap;justify-content:center;gap:6px;position:relative;z-index:2}
+body[data-team=hu] .flow-steps .step-item{min-width:112px;max-width:122px;min-height:148px;padding:14px 9px;border:1px solid #d69f65e0;box-shadow:0 7px 19px #0005;background:#302621}
+body[data-team=hu] .flow-steps .step-item strong{font-size:17px;line-height:1.33}
+body[data-team=hu] .flow-steps .step-arrow{font-size:24px;flex:0 0 26px}
+body[data-team=hu] .flow-title{font-size:19px;margin-bottom:30px}
+body[data-team=hu] .flow-token{position:absolute;z-index:3;left:5%;bottom:55px;width:51px;height:51px;border:2px solid #e5b478;border-radius:50%;background:#372314;display:grid;place-items:center;color:#f4cf8f;font-family:Georgia,serif;font-size:33px;font-weight:900;box-shadow:0 0 27px #cf995a9b;animation:hu-flow-money 6.8s cubic-bezier(.45,.11,.3,.9) infinite}
+@keyframes hu-flow-money{0%,7%{transform:translateX(0) scale(.7);opacity:.3}18%{opacity:1}72%{opacity:1}86%,100%{transform:translateX(510px) scale(.92);opacity:.15}}
+body[data-team=hu] .flow-visual p{font-size:14px;line-height:1.45;margin:25px 3px 0;color:#d6bfa5}
+@media(max-width:700px){body[data-team=hu] .flow-steps{flex-wrap:wrap;gap:5px}body[data-team=hu] .flow-steps .step-item{max-width:106px;min-width:86px;min-height:91px}body[data-team=hu] .flow-steps .step-item strong{font-size:12px}body[data-team=hu] .flow-steps .step-arrow{font-size:14px;flex:0 0 14px}body[data-team=hu] .flow-token{display:none}body[data-team=hu] .flow-title{font-size:12px}}
+@media(prefers-reduced-motion:reduce){body[data-team=hu] .flow-token{animation:none!important}}
+
+/* Custom case visuals — distinct storyboards rather than re-skinned generic cards. */
+body[data-team=cha] .cha-case-story{min-height:470px;display:flex;flex-direction:column;gap:18px;padding:36px;border:3px solid #f4e967;border-radius:3px;box-shadow:14px 17px 0 #0006;background:linear-gradient(140deg,#482052,#261235)}
+body[data-team=cha] .cha-explain{font:900 19px "Malgun Gothic",sans-serif;letter-spacing:.18em;color:#ff7fc6}
+body[data-team=cha] .cha-word-pair{display:flex;flex-direction:column;align-items:flex-start;gap:15px;padding:16px 0}
+body[data-team=cha] .cha-word-pair span{font-size:29px;font-weight:900;color:#e6cae8;text-decoration:line-through}
+body[data-team=cha] .cha-word-pair strong{font-size:114px;letter-spacing:-.11em;color:#f6fa70;line-height:1;text-shadow:13px 12px 0 #f347ad8b;transform:rotate(-3deg)}
+body[data-team=cha] .cha-process-pills{display:flex;align-items:center;gap:12px}
+body[data-team=cha] .cha-process-pills span{border:2px solid #fe83c8;padding:6px 14px;border-radius:6px;font-size:19px;font-weight:900}
+body[data-team=cha] .cha-case-story p{font-size:18px;color:#e7d5ec;line-height:1.6;margin:3px 0}
+body[data-team=shin] .shin-dilemma{min-height:490px;padding:37px 30px;border:4px double #986b47;background:linear-gradient(135deg,#faf1df,#e9ebd8);box-shadow:13px 14px 0 #7c715436;color:#2a5244}
+body[data-team=shin] .shin-dilemma-title{font-size:33px;font-weight:950;letter-spacing:-.05em;border-bottom:2px dashed #956b43;padding-bottom:18px}
+body[data-team=shin] .shin-choices{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:27px}
+body[data-team=shin] .shin-choices article{border:2px solid #52766083;background:#fff9ec;min-height:205px;padding:19px 12px;display:flex;flex-direction:column;gap:17px;align-items:center;text-align:center;justify-content:center;box-shadow:5px 7px 0 #767a6240}
+body[data-team=shin] .shin-choices span{font:900 22px Georgia,serif;color:#b9773e}
+body[data-team=shin] .shin-choices strong{font-size:23px;line-height:1.3;word-break:keep-all}
+body[data-team=shin] .shin-choices p{font-size:16px;color:#60796b}
+body[data-team=shin] .shin-dilemma-note{margin-top:22px;font-size:20px;font-weight:850;color:#946234;text-align:center}
+body[data-team=seung] .seung-asch-demo{min-height:510px;background:#fffaec;border:3px solid #196966;border-radius:22px;padding:30px 31px;box-shadow:12px 13px 0 #3f9d8b50;color:#24535d;display:flex;flex-direction:column;gap:24px}
+body[data-team=seung] .seung-line-note{font-size:19px;font-weight:900;color:#db6c57}
+body[data-team=seung] .seung-lines{display:grid;grid-template-columns:1fr 1.3fr;align-items:center;gap:25px;flex:1}
+body[data-team=seung] .seung-reference{border-right:2px dashed #537b7b80;display:flex;align-items:center;flex-direction:column;gap:20px}
+body[data-team=seung] .seung-reference small{font-size:19px;font-weight:950}
+body[data-team=seung] .seung-reference i{height:145px;width:10px;background:#175b65;border-radius:9px}
+body[data-team=seung] .seung-reference b{font-size:25px;color:#ed8261}
+body[data-team=seung] .seung-answer-options{display:flex;justify-content:space-around;align-items:flex-end;height:240px}
+body[data-team=seung] .seung-answer-options>div{display:flex;align-items:center;gap:21px;flex-direction:column;font-size:22px;font-weight:950}
+body[data-team=seung] .seung-answer-options i{width:10px;background:#19606a;border-radius:8px;display:block;height:110px}
+body[data-team=seung] .seung-answer-options>div:nth-child(2) i{height:145px}
+body[data-team=seung] .seung-answer-options>div:nth-child(3) i{height:170px}
+body[data-team=seung] .seung-asch-demo p{margin:0;font-size:16px;text-align:center;color:#4b757a}
+@media(max-width:700px){
+ body[data-team=cha] .cha-case-story{min-height:275px;padding:17px;gap:11px}body[data-team=cha] .cha-explain{font-size:12px}body[data-team=cha] .cha-word-pair span{font-size:15px}body[data-team=cha] .cha-word-pair strong{font-size:65px}body[data-team=cha] .cha-process-pills span{font-size:11px;padding:5px}body[data-team=cha] .cha-case-story p{font-size:12px}
+ body[data-team=shin] .shin-dilemma{min-height:270px;padding:15px}body[data-team=shin] .shin-dilemma-title{font-size:19px}body[data-team=shin] .shin-choices{gap:5px;margin-top:14px}body[data-team=shin] .shin-choices article{min-height:120px;padding:8px}body[data-team=shin] .shin-choices strong{font-size:13px}body[data-team=shin] .shin-choices p{font-size:10px}body[data-team=shin] .shin-dilemma-note{font-size:12px;margin-top:13px}
+ body[data-team=seung] .seung-asch-demo{min-height:290px;padding:15px;gap:12px}body[data-team=seung] .seung-line-note{font-size:12px}body[data-team=seung] .seung-reference i{height:85px;width:6px}body[data-team=seung] .seung-answer-options{height:145px}body[data-team=seung] .seung-answer-options i{width:6px;height:65px}body[data-team=seung] .seung-answer-options>div:nth-child(2) i{height:85px}body[data-team=seung] .seung-answer-options>div:nth-child(3) i{height:105px}body[data-team=seung] .seung-asch-demo p{font-size:10px}
+}
