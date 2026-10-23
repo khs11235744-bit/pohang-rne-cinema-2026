@@ -81,3 +81,6 @@ body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-scholar-img fig
 body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-asch-diagram{width:103px}
 body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-asch-diagram svg{width:103px;height:115px}
 @media(prefers-reduced-motion:reduce){.phhs-end-thanks,.phhs-cover-roster,.phhs-brand-mark{animation:none!important}}
+
+/* High contrast school crest for the neon language theme. */
+.phhs-brand-mark img{background:#ffffff;border-radius:13px;padding:6px;width:62px;height:62px;box-shadow:0 8px 27px #0008;filter:none}
