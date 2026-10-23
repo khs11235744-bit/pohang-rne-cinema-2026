@@ -1,0 +1,83 @@
+/* PHHS school identity / 2026 research presentations.
+   Cropped official-style central school motif from Pohang High School alumni badge; source in credits. */
+.phhs-brand-mark{z-index:22;position:absolute;top:26px;left:30px;display:flex;align-items:center;gap:8px;pointer-events:none;font-family:"Malgun Gothic",sans-serif}
+.phhs-brand-mark img{display:block;object-fit:contain;width:55px;height:55px;filter:drop-shadow(0 2px 6px #0002)}
+.phhs-brand-mark span{display:none;font-size:11px;font-weight:900;letter-spacing:.03em}
+.phhs-cover-roster{position:absolute;z-index:20;bottom:87px;left:100px;max-width:960px;min-width:480px;padding:15px 22px;border-radius:12px;border:1px solid #a98b5850;background:#fffaf0e6;color:#244537;box-shadow:0 14px 35px #0002;font-family:"Malgun Gothic",sans-serif}
+.phhs-cover-roster strong{display:block;font-size:28px;line-height:1.25;letter-spacing:-.04em}
+.phhs-cover-roster div{font-size:21px;font-weight:800;margin-top:6px;line-height:1.35;word-break:keep-all}
+.phhs-cover-roster small{display:block;font-size:15px;color:#60746c;margin-top:6px}
+.phhs-end-thanks{position:absolute;right:95px;bottom:85px;z-index:24;text-align:right;pointer-events:none;font-family:"Malgun Gothic",sans-serif;letter-spacing:-.05em}
+.phhs-end-thanks>span{display:block;font:800 15px "Courier New",monospace;letter-spacing:.18em;margin-bottom:6px}
+.phhs-end-thanks>strong{font-size:48px;font-weight:950}
+.phhs-scholar-img{margin:0;position:absolute;right:18px;top:26px;width:112px;z-index:8;text-align:center;pointer-events:none}
+.phhs-scholar-img img{display:block;width:112px;height:125px;object-fit:cover;object-position:center 24%;border:3px solid #fff;border-radius:13px;box-shadow:0 9px 20px #0004}
+.phhs-scholar-img figcaption{font-size:12px;font-weight:800;line-height:1.2;margin-top:6px}
+.phhs-asch-diagram{position:absolute;right:20px;top:27px;width:112px;z-index:8;text-align:center}
+.phhs-asch-diagram svg{width:112px;height:112px;border:3px solid #fff;border-radius:13px;background:#f3f1d2}
+.phhs-asch-diagram small{display:block;font-size:12px;line-height:1.15;font-weight:900;margin-top:5px}
+.phhs-gate-logo{position:absolute;top:24px;left:50%;transform:translateX(-50%);z-index:6;width:76px;height:76px;object-fit:contain;filter:drop-shadow(0 8px 15px #0002)}
+/* Shin: fairness ledger */
+.cine-shin .phhs-brand-mark{top:29px;left:29px}
+.cine-shin .phhs-brand-mark img{width:47px;height:47px}
+.cine-shin .phhs-cover-roster{bottom:91px;left:100px;min-width:510px;background:#f8f1e7ec;color:#244539;border-color:#b98a5e89}
+.cine-shin .phhs-cover-roster strong{font-size:24px}
+.cine-shin .phhs-cover-roster div{font-size:19px}
+.cine-shin .phhs-end-thanks{right:110px;bottom:92px;color:#166c5b}
+.cine-shin .phhs-end-thanks strong{font-size:40px}
+.cine-shin .scene--theory .theory-card{position:relative;min-height:355px;padding-top:27px}
+.cine-shin .scene--theory .theory-card:has(.phhs-scholar-img) h3{padding-right:108px;font-size:35px}
+.cine-shin .scene--theory .theory-card:has(.phhs-scholar-img) .thinker{max-width:235px}
+.cine-shin .scene--theory .theory-card:has(.phhs-scholar-img) p{font-size:19px;line-height:1.48;padding-top:13px}
+.cine-shin .scene--theory .phhs-scholar-img{width:106px;right:13px;top:34px}
+.cine-shin .scene--theory .phhs-scholar-img img{width:106px;height:125px;border-color:#efe2c6}
+.cine-shin .scene--theory .phhs-scholar-img figcaption{color:#4c7666}
+/* Hu: investigative file */
+.cine-hu #deck .phhs-brand-mark{left:auto;right:42px;top:23px}
+.cine-hu #deck .phhs-brand-mark img{width:64px;height:64px;filter:drop-shadow(0 0 14px #a46a37a1)}
+.cine-hu .phhs-cover-roster{position:absolute;left:105px;top:585px;bottom:auto;max-width:650px;min-width:510px;background:#161e23e9;border:1px solid #bd8b518a;box-shadow:0 14px 35px #0007;color:#f1dec4}
+.cine-hu .phhs-cover-roster strong{font-size:29px;color:#efb974}
+.cine-hu .phhs-cover-roster div{font-size:24px;color:#f1e2ce}
+.cine-hu .phhs-cover-roster small{font-size:14px;color:#c9b093}
+.cine-hu .phhs-end-thanks{bottom:110px;left:0;right:0;text-align:center;color:#f1ce91;z-index:25}
+.cine-hu .phhs-end-thanks strong{font-size:61px}
+.cine-hu .slide.s12 .end-line{opacity:0}
+.cine-hu .slide.s10 .scholar-card{position:relative;min-height:330px;padding-right:129px!important;padding-top:23px}
+.cine-hu .slide.s10 .scholar-card h3{font-size:31px;letter-spacing:-.04em;white-space:nowrap}
+.cine-hu .slide.s10 .scholar-card p{font-size:19px;line-height:1.5;margin-top:18px}
+.cine-hu .slide.s10 .scholar-card small{font-size:15px}
+.cine-hu .slide.s10 .scholar-card .portrait-frame{position:absolute;right:14px;top:30px;width:108px;height:137px;border-radius:12px;overflow:hidden;border:2px solid #c79963;box-shadow:0 11px 22px #0006}
+.cine-hu .slide.s10 .scholar-card .portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.cine-hu .slide.s10 .phhs-scholar-img{display:none}
+/* Cha: neon language magazine */
+.cine-cha #stage .phhs-brand-mark{top:30px;left:28px}
+.cine-cha #stage .phhs-brand-mark img{width:56px;height:56px;filter:drop-shadow(0 0 10px #fa69c399)}
+.cine-cha #slide .phhs-cover-roster{left:25px;bottom:65px;max-width:820px;min-width:650px;background:#241030d9;color:#ffeaff;border-color:#e676cf;box-shadow:0 8px 30px #0008}
+.cine-cha #slide .phhs-cover-roster strong{color:#fff18f;font-size:26px}
+.cine-cha #slide .phhs-cover-roster div{font-size:19px}
+.cine-cha #slide .phhs-cover-roster small{color:#dbbde0}
+.cine-cha #slide .phhs-end-thanks{left:auto;right:80px;bottom:66px;color:#fff7d4}
+.cine-cha #slide .phhs-end-thanks strong{font-size:50px}
+.cine-cha .phhs-language-scholars{position:absolute;right:15px;bottom:32px;display:flex;gap:17px;z-index:15}
+.cine-cha .phhs-language-item{background:#250f30ec;border:1px solid #ed79b98a;border-radius:14px;padding:12px;display:flex;align-items:center;gap:10px;box-shadow:0 10px 25px #0008}
+.cine-cha .phhs-language-item img{height:86px;width:74px;object-fit:cover;border-radius:9px}
+.cine-cha .phhs-language-item span{font-size:15px;color:#f6e9f8;display:flex;flex-direction:column;gap:6px;white-space:nowrap}
+.cine-cha .phhs-language-item span b{font-size:18px;color:#ffef8e}
+.cine-cha .phhs-language-item small{font-size:13px;color:#e2b9d2}
+/* Seung: School field notes */
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-brand-mark{top:25px;left:31px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-brand-mark img{height:50px;width:50px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-cover-roster{left:98px;bottom:85px;background:#fff4dced;border-color:#3e807888;max-width:790px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-cover-roster strong{font-size:25px;color:#0d8179}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-cover-roster div{font-size:19px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-end-thanks{right:110px;bottom:79px;color:#0b8376}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .slide .phhs-end-thanks strong{font-size:48px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar{position:relative}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar h3{font-size:34px;max-width:260px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar p{font-size:19px;line-height:1.52;margin-top:18px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-scholar-img{top:22px;right:15px;width:105px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-scholar-img img{width:105px;height:119px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-scholar-img figcaption{color:#406b67}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-asch-diagram{width:103px}
+body:not(.cine-shin):not(.cine-hu):not(.cine-cha) .scholar .phhs-asch-diagram svg{width:103px;height:115px}
+@media(prefers-reduced-motion:reduce){.phhs-end-thanks,.phhs-cover-roster,.phhs-brand-mark{animation:none!important}}

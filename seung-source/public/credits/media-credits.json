@@ -1,0 +1,30 @@
+[
+  {
+    "id": "bandura",
+    "name": "Albert Bandura Psychologist (headshot).jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Albert%20Bandura%20Psychologist%20%28headshot%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "bandura@stanford.edu",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Albert_Bandura_Psychologist_%28headshot%29.jpg/960px-Albert_Bandura_Psychologist_%28headshot%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 670,
+    "height": 616
+  },
+  {
+    "id": "durkheim",
+    "name": "Émile Durkheim.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:%C3%89mile%20Durkheim.jpg",
+    "license": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/%C3%89mile_Durkheim.jpg/960px-%C3%89mile_Durkheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 625,
+    "height": 850
+  },
+  {
+    "id": "pohanghs-symbol",
+    "name": "포항고등학교 교표 중앙 상징 도안",
+    "source": "포항고등학교 총동창회 로고의 중심 도안만 발췌(동창회 원형 글자·테두리 제외)",
+    "url": "https://is4-ssl.mzstatic.com/image/thumb/Purple62/v4/a1/ce/f1/a1cef1c4-6357-9b4e-9e58-44afbd68063c/pr_source.png/1024x1024bb.png",
+    "license": "School/alumni emblem; school educational display — confirm official asset before broader commercial reuse",
+    "derived": true
+  }
+]

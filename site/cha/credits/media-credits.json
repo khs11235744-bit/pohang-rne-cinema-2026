@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wittgenstein",
+    "name": "Ludwig-Wittgenstein-portrait.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ludwig-Wittgenstein-portrait.jpg",
+    "license": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ludwig-Wittgenstein-portrait.jpg/960px-Ludwig-Wittgenstein-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "width": 670,
+    "height": 411
+  },
+  {
+    "id": "saussure",
+    "name": "Ferdinand de Saussure.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Ferdinand%20de%20Saussure.jpg",
+    "license": "Public domain",
+    "artist": "",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Ferdinand_de_Saussure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "width": 366,
+    "height": 443
+  },
+  {
+    "id": "pohanghs-symbol",
+    "name": "포항고등학교 교표 중앙 상징 도안",
+    "source": "포항고등학교 총동창회 로고의 중심 도안만 발췌(동창회 원형 글자·테두리 제외)",
+    "url": "https://is4-ssl.mzstatic.com/image/thumb/Purple62/v4/a1/ce/f1/a1cef1c4-6357-9b4e-9e58-44afbd68063c/pr_source.png/1024x1024bb.png",
+    "license": "School/alumni emblem; school educational display — confirm official asset before broader commercial reuse",
+    "derived": true
+  }
+]

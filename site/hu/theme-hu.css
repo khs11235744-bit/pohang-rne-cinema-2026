@@ -1,4 +1,4 @@
-/* HU / CASEFILE 2026 — classified records, international jurisdiction, copper + danger red */
+﻿/* HU / CASEFILE 2026 — classified records, international jurisdiction, copper + danger red */
 body.cine-hu{--bg:#090f15;--panel:#1e2527;--mint:#e0ad67;--blue:#8a9b9c;--gold:#f4c37d;--muted:#abb3aa;--white:#f3ede2;--dur:800ms;background:#070d12;color:#f4eee3}
 body.cine-hu .full{background:radial-gradient(ellipse at 71% 17%,#5e3a2d6e,transparent 45%),radial-gradient(circle at 10% 90%,#19394a74,transparent 50%),#080e14}
 body.cine-hu #deck{background:#0c1318;box-shadow:0 0 160px #000d;filter:contrast(1.07)}
@@ -57,3 +57,39 @@ body.cine-hu .evidence-atlas{position:absolute;width:72%;height:82%;right:0;top:
 body.cine-hu .evidence-link{stroke:#f2b66b;stroke-width:3;fill:none}
 body.cine-hu .evidence-node{fill:#ffe3ac;stroke:#ff9570;stroke-width:2}
 body.cine-hu .evidence-node-label{fill:#ffdeaa;font:bold 16px 'Courier New',monospace;letter-spacing:.08em}
+
+body.cine-hu .slide.s8.kind-crypto .scene{position:relative}
+body.cine-hu .slide.s8.kind-crypto .scene .flow{position:absolute;top:273px;left:0;right:0;margin:0;transform:scale(.93);transform-origin:center top}
+body.cine-hu .slide.s8.kind-crypto .scene .headline-claim{position:absolute;bottom:5px;left:0;right:0;text-align:center}
+body.cine-hu .hu-money-diagram{display:block;position:absolute;top:13px;left:2.5%;width:95%;height:258px;z-index:3;overflow:visible}
+body.cine-hu .hu-money-diagram .money-node rect{fill:#2b2521;stroke:#d1a36b;stroke-width:2}
+body.cine-hu .hu-money-diagram .money-node:nth-child(even) rect{fill:#162b30;stroke:#8cb3ab}
+body.cine-hu .hu-money-diagram .hu-money-index{font:bold 19px 'Courier New',monospace;fill:#d7a66b}
+body.cine-hu .hu-money-diagram .hu-money-title{font:bold 30px 'Malgun Gothic',sans-serif;fill:#f8eacb}
+body.cine-hu .hu-money-diagram .hu-money-detail{font:19px 'Malgun Gothic',sans-serif;fill:#c0cfc6}
+body.cine-hu .hu-money-diagram .money-link{stroke:#ebb976;stroke-width:5;fill:none;stroke-linecap:round}
+body.cine-hu .hu-money-diagram .money-token{fill:#ffea99;filter:drop-shadow(0 0 7px #ffbc68)}
+body.cine-hu .hu-money-diagram .hu-money-label{fill:#e9b06e;font:bold 15px 'Courier New',monospace;letter-spacing:.13em}
+body.cine-hu .hu-money-diagram .hu-money-foot{fill:#ced5c8;font:18px 'Malgun Gothic',sans-serif}
+body.cine-hu .slide.s1.kind-cover .cover-topic{position:absolute;z-index:11;left:0;right:0;bottom:88px;background:#d6a16f18;border:1px solid #d6a16f6b;border-radius:12px;padding:19px 25px;font-size:24px;font-weight:900;color:#f4cea0;text-align:center;letter-spacing:-.025em;box-shadow:0 9px 25px #0006}
+body.cine-hu .slide.s1.kind-cover .cover-topic{animation:huIntroReveal 1.4s ease .7s both}
+@keyframes huIntroReveal{from{opacity:0;transform:translateY(20px);filter:blur(10px)}to{opacity:1;transform:none;filter:blur(0)}}
+
+/* Critical projector audit correction:
+   .scene must remain absolute; relative previously pushed the D3 money flow below the viewport. */
+body.cine-hu .slide.s8.kind-crypto .scene{position:absolute;left:104px;right:92px;top:345px;bottom:92px;display:block}
+body.cine-hu .slide.s8.kind-crypto .scene .flow,
+body.cine-hu .slide.s8.kind-crypto .scene .evidence-motion-label{display:none!important}
+body.cine-hu .slide.s8.kind-crypto .scene .hu-money-diagram{
+ display:block;position:absolute;top:24px;left:2%;width:96%;height:310px;z-index:3;
+ background:linear-gradient(140deg,#0c2028d9,#171d21d0);
+ border:1px solid #d4a06574;border-radius:16px;overflow:visible;
+}
+body.cine-hu .slide.s8.kind-crypto .scene .headline-claim{
+ position:absolute;top:364px;bottom:auto;left:8%;right:8%;
+ padding:13px 26px;font-size:27px;z-index:4;line-height:1.35
+}
+body.cine-hu .phhs-brand-mark img{
+ width:64px;height:64px;background:#fff9f1;border:2px solid #fae0b5;
+ border-radius:50%;padding:6px;box-shadow:0 0 14px #0009
+}
