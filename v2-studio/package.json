@@ -7,7 +7,9 @@
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "check": "node qa/check-data.mjs"
+    "check": "node qa/check-data.mjs",
+    "export:visual-briefs": "node scripts/export-visual-briefs.mjs --team all --out ./_exports/rne_visual_briefs.md",
+    "test:visual-briefs": "node --test qa/visual-briefs.test.mjs"
   },
   "dependencies": {
     "vite": "^7.1.0",
